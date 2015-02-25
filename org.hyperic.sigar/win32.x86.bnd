@@ -1,0 +1,4 @@
+Fragment-Host: org.hyperic.sigar
+Include-Resource: lib/sigar-x86-winnt.dll
+Bundle-NativeCode: sigar-x86-winnt.dll; osname=win32; processor=x86
+Bundle-Version: 1.6.4.qualifier

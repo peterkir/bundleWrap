@@ -1,0 +1,4 @@
+Fragment-Host: org.hyperic.sigar
+Include-Resource: lib/libsigar-x86-linux.so
+Bundle-NativeCode: libsigar-x86-linux.so; osname=linux; processor=x86
+Bundle-Version: 1.6.4.qualifier

@@ -1,0 +1,3 @@
+-include: ${workspace}/cnf/global-jdt-sync.properties
+-buildpath: lib/sigar.jar;version=file
+-sub: *.bnd

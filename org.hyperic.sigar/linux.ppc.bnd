@@ -1,0 +1,4 @@
+Fragment-Host: org.hyperic.sigar
+Include-Resource: lib/libsigar-ppc-linux.so
+Bundle-NativeCode: libsigar-ppc-linux.so; osname=linux; processor=ppc
+Bundle-Version: 1.6.4.qualifier
