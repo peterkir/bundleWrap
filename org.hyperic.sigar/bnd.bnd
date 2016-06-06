@@ -1,3 +1,9 @@
 -include: ${workspace}/cnf/global-jdt-sync.properties
--buildpath: lib/sigar.jar;version=file
+
+wrappedVersion=1.6.4
+
+-buildpath: \
+	ee.j2se;version=1.6,\
+	lib/sigar.jar;version=file
+
 -sub: *.bnd

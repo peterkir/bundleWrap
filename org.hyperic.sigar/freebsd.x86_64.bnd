@@ -1,0 +1,4 @@
+-include: _common
+Fragment-Host: org.hyperic.sigar
+Include-Resource: lib/libsigar-amd64-freebsd-6.so
+Bundle-NativeCode: libsigar-amd64-freebsd-6.so; osname=FreeBSD; processor=x86-64

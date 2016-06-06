@@ -1,0 +1,4 @@
+-include: _common
+Fragment-Host: org.hyperic.sigar
+Bundle-NativeCode: libsigar-arm-linux.so; osname=linux; processor=arm
+Include-Resource: lib/libsigar-arm-linux.so

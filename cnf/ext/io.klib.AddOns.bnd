@@ -1,0 +1,11 @@
+-plugin.101.Local: \
+        aQute.bnd.deployer.repository.LocalIndexedRepo; \
+            name   = ee.j2se ; \
+            pretty = true ; \
+            local  = ${workspace}/bndAddOns/repo_J2SE
+
+-plugin.102.Local: \
+        aQute.bnd.deployer.repository.LocalIndexedRepo; \
+            name   = logging ; \
+            pretty = true ; \
+            local  = ${workspace}/bndAddOns/repo_LOGGING

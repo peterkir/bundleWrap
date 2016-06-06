@@ -1,0 +1,4 @@
+-include: _common
+Fragment-Host: org.hyperic.sigar
+Bundle-NativeCode: libsigar-universal-macosx.dylib; osname=MacOSX; processor=x86-64
+Include-Resource: lib/libsigar-universal-macosx.dylib

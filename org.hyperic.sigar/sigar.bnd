@@ -1,0 +1,18 @@
+-include: _common
+-includeresource: lib/sigar.jar
+-fixupmessages: "Eclipse: The Bundle Symbolic org.hyperic.sigar";is:=ignore
+
+Bundle-SymbolicName: ${project.name}
+Export-Package: org.hyperic.*
+Import-Package: \
+	javax.management,\
+	junit.framework;resolution:=optional,\
+	junit.textui;resolution:=optional,\
+	org.apache.log4j,\
+	org.apache.tools.ant;resolution:=optional;version='[1.6.5,2)',\
+	org.apache.tools.ant.taskdefs;resolution:=optional;version='[1.6.5,2)',\
+	sun.misc;resolution:=optional,\
+	org.hyperic.sigar.util;version='[1.6,2)',\
+	*
+
+Main-Class: org.hyperic.sigar.cmd.Runner

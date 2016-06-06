@@ -1,0 +1,2 @@
+Bundle-Version: ${wrappedVersion}.${tstamp;yyyyMMdd-HHmmss}
+Bundle-Description: SIGAR - System Information Gatherer And Reporter

@@ -1,0 +1,4 @@
+-include: _common
+Fragment-Host: org.hyperic.sigar
+Include-Resource: lib/libsigar-amd64-solaris.so
+Bundle-NativeCode: libsigar-amd64-solaris.so; osname=Solaris; processor=x86-64

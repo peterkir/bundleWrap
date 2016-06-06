@@ -1,4 +1,4 @@
+-include: _common
 Fragment-Host: org.hyperic.sigar
 Include-Resource: lib/libsigar-amd64-linux.so
-Bundle-NativeCode: libsigar-amd64-linux.so; osname=linux; processor=x86_64
-Bundle-Version: 1.6.4.qualifier
+Bundle-NativeCode: libsigar-amd64-linux.so; osname=linux; processor=x86-64
